@@ -1,0 +1,61 @@
+.imageDiv {
+  padding: 0 1rem;
+  margin-bottom: 3rem;
+
+  > div {
+    display: flex;
+    justify-content: center;
+  }
+
+  img {
+    max-width: 450px;
+  }
+
+  @media only screen and (max-width: 720px) {
+    img {
+      max-width: 300px;
+    }
+  }
+}
+
+.orcamentoDiv {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #000;
+  background-color: #388ff040;
+  padding: 3rem 1rem;
+  gap: 5px;
+
+  h1 {
+    font-style: italic;
+  }
+}
+
+.services {
+  padding: 1rem;
+  text-align: center;
+  color: #000;
+  font-weight: bold;
+  font-style: italic;
+  font-size: 24px;
+}
+
+.social {
+  padding: 1rem;
+  color: #000;
+  font-weight: bold;
+  font-style: italic;
+  font-size: 28px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5rem;
+
+  a:first-child {
+    margin-right: 1rem;
+  }
+}

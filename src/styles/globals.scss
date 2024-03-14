@@ -1,0 +1,46 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  min-height: 100vh;
+  color: #fff;
+  background-color: #000;
+  -webkit-font-smoothing: antialiased;
+  scroll-behavior: smooth;
+}
+
+body {
+  padding: 3rem 0;
+  background-image: url("/fundo.jpg");
+  background-size: cover;
+}
+
+body,
+input,
+button,
+textarea {
+  font-size: 1rem;
+}
+
+button {
+  cursor: pointer;
+  transition: all linear 0.2s;
+
+  &:hover {
+    filter: brightness(90%);
+  }
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  transition: all linear 0.2s;
+
+  &:hover {
+    filter: brightness(75%);
+  }
+}
